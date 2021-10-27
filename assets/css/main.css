@@ -116,7 +116,16 @@ input, select, textarea {
 		font-size: 16pt;
 		font-weight: 300;
 		line-height: 1.75;
-	}
+		/**background: -webkit-linear-gradient(
+45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
+    background: linear-gradient(to 45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
+	*/
+	/**background: rgb(166,162,236);
+background: linear-gradient(90deg, rgba(166,162,236,0.8578781854538691) 0%, rgba(255,174,165,0.7290266448376226) 41%, rgba(0,207,255,0.2556372890953257) 100%);
+*/
+background: rgb(166,162,236);
+background: linear-gradient(153deg, rgba(166,162,236,0.8578781854538691) 0%, rgba(255,174,165,0.7290266448376226) 41%, rgba(0,207,255,0.2556372890953257) 100%);	
+}
 
 		@media screen and (max-width: 1680px) {
 
